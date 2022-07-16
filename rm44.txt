@@ -1,0 +1,11 @@
+adb shell pm uninstall --user 0 com.miui.carlink
+adb shell pm uninstall --user 0 com.unionpay.tsmservice.mi
+adb shell pm uninstall --user 0 com.xiaomi.powerchecker
+adb shell pm uninstall --user 0 com.miui.securityadd
+adb shell pm uninstall --user 0 com.miui.core.internal.assistant
+adb shell pm uninstall --user 0 com.miui.vipservice
+adb shell pm uninstall --user 0 com.miui.phrase
+adb shell pm uninstall --user 0 com.miui.compass
+adb shell pm uninstall --user 0 com.miui.cleanmaster
+adb shell pm uninstall --user 0 org.mipay.android.manager
+adb shell pm uninstall --user 0 com.xiaomi.scanner

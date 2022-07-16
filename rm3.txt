@@ -1,0 +1,10 @@
+adb shell pm disable-user com.miui.daemon
+adb shell pm disable-user com.xiaomi.xmsf
+adb shell pm disable-user com.xiaomi.simactivate.service
+adb shell pm disable-user com.xiaomi.xmsfkeeper
+adb shell pm uninstall --user 0 com.miui.cloudservice
+adb shell pm uninstall --user 0 com.xiaomi.account
+adb shell pm uninstall --user 0 com.miui.cloudbackup
+adb shell pm uninstall --user 0 com.xiaomi.market
+adb shell pm uninstall --user 0 com.android.thememanager
+adb shell pm uninstall --user 0 com.miui.cloudservice.sysbase
